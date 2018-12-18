@@ -1,6 +1,6 @@
 var webAPI = new WebAPI();
 function WebAPI(arg){
-	var url_prefix = "/iknow/";
+	var url_prefix = "/agr/";
 	this.request = function( config ){
 		var me = this;
 		var successFnc = config.success;
