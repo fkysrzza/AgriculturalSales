@@ -1,0 +1,8 @@
+package com.example.demo.domain;
+
+import java.util.Date;
+
+public class Merchandise{ 	 private Integer id; 	 private String name; 	 private Integer merchandiseTypeId; 	 private Double price; 	 private Integer factoryId; 	 private Date createTime; 	 private Date updateTime; 	 private Integer deleted; 	 public Merchandise() {
+ 	 	 super();	}
+ 	 public void setId(Integer id){ 		 this.id=id; 	 } 	 public Integer getId(){ 		 return this.id; 	 } 	 public void setName(String name){ 		 this.name=name; 	 } 	 public String getName(){ 		 return this.name; 	 } 	 public void setMerchandiseTypeId(Integer merchandiseTypeId){ 		 this.merchandiseTypeId=merchandiseTypeId; 	 } 	 public Integer getMerchandiseTypeId(){ 		 return this.merchandiseTypeId; 	 } 	 public void setPrice(Double price){ 		 this.price=price; 	 } 	 public Double getPrice(){ 		 return this.price; 	 } 	 public void setFactoryId(Integer factoryId){ 		 this.factoryId=factoryId; 	 } 	 public Integer getFactoryId(){ 		 return this.factoryId; 	 } 	 public void setCreateTime(Date createTime){ 		 this.createTime=createTime; 	 } 	 public Date getCreateTime(){ 		 return this.createTime; 	 } 	 public void setUpdateTime(Date updateTime){ 		 this.updateTime=updateTime; 	 } 	 public Date getUpdateTime(){ 		 return this.updateTime; 	 } 	 public void setDeleted(Integer deleted){ 		 this.deleted=deleted; 	 } 	 public Integer getDeleted(){ 		 return this.deleted; 	 }
+}

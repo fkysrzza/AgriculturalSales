@@ -1,0 +1,8 @@
+package com.example.demo.domain;
+
+import java.util.Date;
+
+public class Factory{ 	 private Integer id; 	 private String factoryName; 	 private Integer areaId; 	 private String addr; 	 private String phone; 	 private String contactName; 	 private Date createTime; 	 private Date updateTime; 	 private Integer deleted; 	 public Factory() {
+ 	 	 super();	}
+ 	 public void setId(Integer id){ 		 this.id=id; 	 } 	 public Integer getId(){ 		 return this.id; 	 } 	 public void setFactoryName(String factoryName){ 		 this.factoryName=factoryName; 	 } 	 public String getFactoryName(){ 		 return this.factoryName; 	 } 	 public void setAreaId(Integer areaId){ 		 this.areaId=areaId; 	 } 	 public Integer getAreaId(){ 		 return this.areaId; 	 } 	 public void setAddr(String addr){ 		 this.addr=addr; 	 } 	 public String getAddr(){ 		 return this.addr; 	 } 	 public void setPhone(String phone){ 		 this.phone=phone; 	 } 	 public String getPhone(){ 		 return this.phone; 	 } 	 public void setContactName(String contactName){ 		 this.contactName=contactName; 	 } 	 public String getContactName(){ 		 return this.contactName; 	 } 	 public void setCreateTime(Date createTime){ 		 this.createTime=createTime; 	 } 	 public Date getCreateTime(){ 		 return this.createTime; 	 } 	 public void setUpdateTime(Date updateTime){ 		 this.updateTime=updateTime; 	 } 	 public Date getUpdateTime(){ 		 return this.updateTime; 	 } 	 public void setDeleted(Integer deleted){ 		 this.deleted=deleted; 	 } 	 public Integer getDeleted(){ 		 return this.deleted; 	 }
+}

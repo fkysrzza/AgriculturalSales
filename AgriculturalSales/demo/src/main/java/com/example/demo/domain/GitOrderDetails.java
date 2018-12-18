@@ -1,0 +1,8 @@
+package com.example.demo.domain;
+
+import java.util.Date;
+
+public class GitOrderDetails{ 	 private Integer id; 	 private Integer merchandiseId; 	 private Integer amount; 	 private Double totalPrice; 	 private Integer gitOrderId; 	 private Date createTime; 	 private Date updateTime; 	 private Integer deleted; 	 public GitOrderDetails() {
+ 	 	 super();	}
+ 	 public void setId(Integer id){ 		 this.id=id; 	 } 	 public Integer getId(){ 		 return this.id; 	 } 	 public void setMerchandiseId(Integer merchandiseId){ 		 this.merchandiseId=merchandiseId; 	 } 	 public Integer getMerchandiseId(){ 		 return this.merchandiseId; 	 } 	 public void setAmount(Integer amount){ 		 this.amount=amount; 	 } 	 public Integer getAmount(){ 		 return this.amount; 	 } 	 public void setTotalPrice(Double totalPrice){ 		 this.totalPrice=totalPrice; 	 } 	 public Double getTotalPrice(){ 		 return this.totalPrice; 	 } 	 public void setGitOrderId(Integer gitOrderId){ 		 this.gitOrderId=gitOrderId; 	 } 	 public Integer getGitOrderId(){ 		 return this.gitOrderId; 	 } 	 public void setCreateTime(Date createTime){ 		 this.createTime=createTime; 	 } 	 public Date getCreateTime(){ 		 return this.createTime; 	 } 	 public void setUpdateTime(Date updateTime){ 		 this.updateTime=updateTime; 	 } 	 public Date getUpdateTime(){ 		 return this.updateTime; 	 } 	 public void setDeleted(Integer deleted){ 		 this.deleted=deleted; 	 } 	 public Integer getDeleted(){ 		 return this.deleted; 	 }
+}

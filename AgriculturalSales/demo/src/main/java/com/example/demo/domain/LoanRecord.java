@@ -1,0 +1,8 @@
+package com.example.demo.domain;
+
+import java.util.Date;
+
+public class LoanRecord{ 	 private Integer id; 	 private Double price; 	 private Date time; 	 private Integer factoryId; 	 private Double interestRate; 	 private Date createTime; 	 private Date updateTime; 	 private Integer deleted; 	 public LoanRecord() {
+ 	 	 super();	}
+ 	 public void setId(Integer id){ 		 this.id=id; 	 } 	 public Integer getId(){ 		 return this.id; 	 } 	 public void setPrice(Double price){ 		 this.price=price; 	 } 	 public Double getPrice(){ 		 return this.price; 	 } 	 public void setTime(Date time){ 		 this.time=time; 	 } 	 public Date getTime(){ 		 return this.time; 	 } 	 public void setFactoryId(Integer factoryId){ 		 this.factoryId=factoryId; 	 } 	 public Integer getFactoryId(){ 		 return this.factoryId; 	 } 	 public void setInterestRate(Double interestRate){ 		 this.interestRate=interestRate; 	 } 	 public Double getInterestRate(){ 		 return this.interestRate; 	 } 	 public void setCreateTime(Date createTime){ 		 this.createTime=createTime; 	 } 	 public Date getCreateTime(){ 		 return this.createTime; 	 } 	 public void setUpdateTime(Date updateTime){ 		 this.updateTime=updateTime; 	 } 	 public Date getUpdateTime(){ 		 return this.updateTime; 	 } 	 public void setDeleted(Integer deleted){ 		 this.deleted=deleted; 	 } 	 public Integer getDeleted(){ 		 return this.deleted; 	 }
+}
