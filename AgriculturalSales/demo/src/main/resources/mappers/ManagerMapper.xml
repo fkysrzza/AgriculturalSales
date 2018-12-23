@@ -10,9 +10,8 @@
 			permission_id as permissionId
 		from
 			manager
-		where
-			login_name = #{manager.loginName}
-　　　　　		<!-- <if test="manager.id != null and manager.id !=''">
+		<where>
+			<if test="manager.id != null and manager.id !=''">
 				and id = #{manager.id}
 			</if>
 			<if test="manager.name != null and manager.name != ''" >
@@ -23,7 +22,7 @@
 			</if>
 			<if test="manager.permissionId != null and manager.permissionId != ''">
 				and permission_id = #{manager.permissionId}
-			</if> -->
-		
+			</if>
+		</where>
 	</select>
 </mapper>

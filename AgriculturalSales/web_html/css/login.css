@@ -48,6 +48,7 @@ body{
 	padding-left:20px;
 	padding-right:20px;
 }
+
 .login-btn{
 	width: 49%;
     margin: 0;
@@ -66,4 +67,10 @@ body{
 	background-color: #1E9FFF;
 	border:none;
 	color: #fff;
+}
+.btn-blue:hover{
+	background-color:#75bbef;
+}
+.login-btn:hover{
+	border-color:#75bbef;
 }
