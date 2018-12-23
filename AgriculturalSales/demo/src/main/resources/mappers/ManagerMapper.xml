@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ManagerMapper">
+	<select id='getManager' resultType="com.example.demo.domain.Manager">
+		select
+			id,
+			name,
+			login_name as loginName,
+			password,
+			permission_id as permissionId
+		from
+			manager
+		where
+			login_name = #{manager.loginName}
+　　　　　		<!-- <if test="manager.id != null and manager.id !=''">
+				and id = #{manager.id}
+			</if>
+			<if test="manager.name != null and manager.name != ''" >
+				and name = #{manager.name}
+			</if>
+			<if test="manager.loginName != null and manager.loginName != ''">
+				and login_name = #{manager.loginName}
+			</if>
+			<if test="manager.permissionId != null and manager.permissionId != ''">
+				and permission_id = #{manager.permissionId}
+			</if> -->
+		
+	</select>
+</mapper>

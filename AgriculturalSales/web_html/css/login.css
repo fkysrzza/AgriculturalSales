@@ -1,0 +1,69 @@
+html{
+	height:100%;
+}
+body{
+	height:100%;
+}
+.main{
+	height:100%;
+	background: url(../img/login_bg.png) no-repeat;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+.login-body{
+	position: absolute;
+	width:390px;
+	height:260px;
+	left:50%;
+	top:50%; 
+	margin-left:-195px;
+	margin-top:-200px;
+}
+.login-body>h3{
+	text-align:center;
+	color: #fff;
+    padding: 10px;
+}
+.login-body>.V-phone{
+	text-align:center;
+	color: #8684807a;
+	margin-top:10px;
+}
+.login-form{
+	background-color:#fff;
+	border-radius:6px;
+    padding: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login-input{
+	height: 40px;
+	width:100%;
+    line-height: 40px\9;
+    margin-bottom: 20px;
+	margin-top: 8px;
+    -webkit-transition-property: none;
+    transition-property: none;
+    background: #ececec;
+    border: 1px solid #ececec;
+	padding-left:20px;
+	padding-right:20px;
+}
+.login-btn{
+	width: 49%;
+    margin: 0;
+	display:inline-block;
+	border: 1px solid #C9C9C9;
+    background-color: #fff;
+    color: #555;
+	height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+	text-align: center;
+    font-size: 14px;
+	cursor:pointer;
+}
+.btn-blue{
+	background-color: #1E9FFF;
+	border:none;
+	color: #fff;
+}
