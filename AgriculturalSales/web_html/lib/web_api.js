@@ -1,3 +1,8 @@
+if(sessionStorage.getItem("HTTP_REQUEST_key")== undefined || sessionStorage.getItem("HTTP_REQUEST_key") == null || sessionStorage.getItem("HTTP_REQUEST_key") == ''){
+	if(window.location.pathname != "/login.html"){
+		window.location.href="login.html";
+	}
+}
 var webAPI = new WebAPI();
 function WebAPI(arg){
 	var url_prefix = "/agr/";
