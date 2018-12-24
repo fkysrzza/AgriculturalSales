@@ -14,41 +14,45 @@
 	<div class='main'>
 		<!-- 左侧 -->
 		<div class='nav'>
-			<div class='logo'>农资管理系统</div>
+			<div class='logo' id='showye'>农资管理系统</div>
 			<div class='nav-btn'>
+				<div class='t1-btn t-li go-btn' id='goumai'>
+					<i class="fa fa-map-o" aria-hidden="true"></i>
+					购买
+				</div>
 				<div class='t1-btn t-ul' id='t1_1' data-son-id='t2_1'>
 					<i class="fa fa-codepen" aria-hidden="true"></i>
 					订单管理
 				</div>
 				<div class='t2' id='t2_1' hidden>
-					<div class='t2-btn'>
+					<div class='t2-btn go-btn' id='jinhuo'>
 						<i class="fa fa-minus" aria-hidden="true"></i>
 						进货订单
 					</div>
-					<div class='t2-btn'>
+					<div class='t2-btn go-btn' id='xiaoshou'>
 						<i class="fa fa-minus" aria-hidden="true"></i>
-						出货订单
+						销售订单
+					</div>
+					<div class='t2-btn go-btn' id='huizong'>
+						<i class="fa fa-minus" aria-hidden="true"></i>
+						订单汇总
 					</div>
 				</div>
-			
-				<div class='t1-btn t-li' id='t1_2'>
+				
+				
+				<div class='t1-btn t-li go-btn' id='changjia'>
+					<i class="fa fa-map-o" aria-hidden="true"></i>
+					厂家管理
+				</div>
+				
+				<div class='t1-btn t-li go-btn' id='shangpin'>
 					<i class="fa fa-map-o" aria-hidden="true"></i>
 					商品管理
 				</div>
 				
-				<div class='t1-btn t-ul' id='t1_3' data-son-id='t2_2'>
-					<i class="fa fa-codepen" aria-hidden="true"></i>
+				<div class='t1-btn t-li go-btn' id='yonghu'>
+					<i class="fa fa-map-o" aria-hidden="true"></i>
 					用户管理
-				</div>
-				<div class='t2' id='t2_2' hidden>
-					<div class='t2-btn'>
-						<i class="fa fa-minus" aria-hidden="true"></i>
-						普通用户
-					</div>
-					<div class='t2-btn'>
-						<i class="fa fa-minus" aria-hidden="true"></i>
-						管理员
-					</div>
 				</div>
 			</div>
 		</div>
@@ -63,7 +67,7 @@
 				<span class='drop-out'>退出登录</span>
 			</div>
 			<div class='if-body'>
-			
+				<iframe frameborder='0' src='shouye.html'></iframe>
 			</div>
 		</div>
 	</div>

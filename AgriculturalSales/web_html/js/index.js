@@ -1,4 +1,5 @@
 $(function(){
+	$("iframe").css("min-height",($(document).height()-60)+"px")
 	$(".t-ul").click(function(){
 		var son = $(this).data("son-id");
 		if($("#"+son).is(':visible')){
@@ -35,6 +36,15 @@ $(function(){
 			$(".ts").removeClass("ts")
 			$(this).addClass("li-c");
 		}
+	});
+	$("#showye").click(function(){
+		$(".ts").removeClass("ts")
+		$(".li-c").removeClass("li-c");
+		$("iframe").attr("src","./shouye.html");
+	});
+	$(".go-btn").click(function(){
+		var src = $(this).attr("id");
+		$("iframe").attr("src" , "./" + src + ".html");
 	});
 	
 });
